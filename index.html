@@ -9,7 +9,6 @@
     </head>
     <body>
         <div class="download-curriculo"><a href="./Curriculo/Matheus_Cardao_Curriculo.pdf" download="Matheus_Cardao_Curriculo.pdf" target="_blank">Baixe meu currículo</a></div>
-
         <header>
             <div class="interface">
                 <div class="logo">
@@ -28,13 +27,32 @@
                 </nav>
 
                 <div class="btn-contato">
-                    <a href="#formulario">
+                    <a href="#footer">
                         <button>Contato</button>
                     </a>    
                 </div>
             </div>
+                <div id="btn-menu" class="btn-abrir-menu">
+                    <i class="bi bi-list"></i>  
+                </div>
+            <div id="menu-mobile" class="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-circle"></i>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#especialidades">Especialidades</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#footer">Contato</a></li>
+                        <li><a href="./Curriculo/Matheus_Cardao_Curriculo.pdf" download="Matheus_Cardao_Curriculo.pdf" target="_blank"><i class="bi bi-download"></i> Currículo</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="overlay-menu" class="overlay-menu"></div>
         </header>
-
+        <script src="menu.js" defer></script>
         <main>
             <section id="inicio" class="topo-do-site">
                 <div class="interface">
@@ -130,7 +148,7 @@
             </section>
         </main>
 
-        <footer>
+        <footer id="footer">
             <div class="interface">
                 <div class="line-footer">
                     <div class="flex">

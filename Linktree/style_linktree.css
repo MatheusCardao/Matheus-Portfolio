@@ -3,6 +3,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -84,4 +85,18 @@ a:hover {
 a:active {
     opacity: 0.6;
     transform: scale(1);
+}
+
+@media screen and (max-width: 1080px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .sub-title {
+        font-size: 15px;
+    }
+
+    .link {
+        margin-top: 0;
+    }
 }
