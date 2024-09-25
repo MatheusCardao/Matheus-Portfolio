@@ -626,4 +626,10 @@ footer .line-footer p, footer .line-footer a {
         margin: 0 auto;
         margin-bottom: 30px;
     }
+
+    /* MENU MOBILE */ 
+
+    .btn-abrir-menu i {
+        visibility: visible;
+    }
 }
